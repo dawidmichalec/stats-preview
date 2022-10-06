@@ -1,0 +1,253 @@
+@media only screen and (min-width:1020px) {
+
+    .main {
+        width:1440px;
+        height:800px;
+        background:hsl(233, 47%, 7%);
+        margin:50px auto 50px;
+        position:relative;
+    }
+
+    .card {
+        width:1100px;
+        height:440px;
+        background:hsl(244, 38%, 16%);
+        position:absolute;
+        left: 170px;
+        top:175px;
+        border-radius:8px;
+    }
+
+    .image-container {
+        width:550px;
+        height:100%;
+        position:absolute;
+        margin:0;
+        padding:0;
+        right:0;
+        background:white;
+        border-top-right-radius:8px;
+        border-bottom-right-radius:8px;
+    }
+
+    .photo-desktop {
+        width:550px;
+        height:100%;
+        position:absolute;
+        margin:0;
+        border-top-right-radius:8px;
+        border-bottom-right-radius:8px;
+    }
+
+    .photo-mobile {
+        display:none;
+    }
+
+    .filter {
+        width:550px;
+        height:100%;
+        position:absolute;
+        margin:0;
+        border-top-right-radius:8px;
+        border-bottom-right-radius:8px;
+        background:hsla(277, 98%, 30%, 0.55);
+    }
+
+    .text-field {
+        width:400px;
+        height:300px;
+        position:absolute;
+        top:75px;
+        left:75px;
+    }
+
+    .main-p {
+        font-family: 'Inter', sans-serif;
+        font-weight:700;
+        font-size:34px;
+        color:hsl(0, 0%, 100%);
+        margin:0;
+    }
+
+    .insights {
+        color:hsl(277, 64%, 61%);
+    }
+
+    .desc {
+        font-family: 'Inter', sans-serif;
+        font-weight:400;
+        font-size:15px;
+        line-height:24px;
+        margin:25px 0 0 0;
+        color:hsla(0, 0%, 100%, 0.75);
+        width:350px;
+    }
+
+    .companies {
+        display:inline-block;
+        width:100px;
+        height:60px;
+        margin:0 20px 0 0;
+    }
+
+    .templates{
+        display:inline-block;
+        width:100px;
+        height:60px;
+        margin:70px 0px 0px 20px;
+    }
+
+    .queries {
+        display:inline-block;
+        width:100px;
+        height:60px;
+        margin:0 20px 0 32px;
+    }
+
+    .p-companies, .p-templates, .p-queries {
+        font-family: 'Inter', sans-serif;
+        font-weight:700;
+        font-size:24px;
+        color:hsl(0, 0%, 100%);
+        margin:0;
+    }
+
+    .companies-head, .templates-head, .queries-head {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsla(0, 0%, 100%, 0.6);
+        margin:8px 0;
+        letter-spacing:1px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .main {
+        width:375px;
+        height:800px;
+        background:hsl(233, 47%, 7%);
+        margin:auto;
+        position:relative;
+    }
+
+    .card {
+        width:300px;
+        height:680px;
+        background:hsl(244, 38%, 16%);
+        position:absolute;
+        top:50px;
+        left:37.5px;
+        border-radius:8px;
+    }
+
+    .image-container {
+        width:300px;
+        height:32%;
+        position:absolute;
+        margin:0;
+        padding:0;
+        top:0;
+        background:white;
+        border-top-right-radius:8px;
+        border-top-left-radius:8px;
+    }
+
+     .photo-desktop {
+        display:none;
+
+    }
+
+    .photo-mobile {
+        width:300px;
+        height:100%;
+        margin:0;
+        position:absolute;
+        border-top-right-radius:8px;
+        border-top-left-radius:8px;
+    }
+
+    .filter {
+        width:300px;
+        height:100%;
+        position:absolute;
+        margin:0;
+        border-top-right-radius:8px;
+        border-top-left-radius:8px;
+        background:hsla(277, 98%, 30%, 0.55);
+    }
+
+    .text-field {
+        width:250px;
+        height:50%;
+        position:absolute;
+        top:240px;
+        left:25px;
+    }
+
+    .main-p {
+        font-family: 'Inter', sans-serif;
+        font-weight:700;
+        font-size:24px;
+        text-align:center;
+        color:hsl(0, 0%, 100%);
+        margin:0;
+    }
+
+    .insights {
+        color:hsl(277, 64%, 61%);
+    }
+
+    .desc {
+        font-family: 'Inter', sans-serif;
+        width:210px;
+        font-weight:400;
+        font-size:12px;
+        line-height:24px;
+        text-align:center;
+        margin:12px 0 0 17px;
+        color:hsla(0, 0%, 100%, 0.75);
+
+    }
+
+    .companies {
+        margin:auto;
+        position:absolute;
+        text-align:center;
+        top:220px;
+        left:90px;
+    }
+
+    .templates{
+        margin:auto;
+        position:absolute;
+        text-align:center;
+        top:290px;
+        left:90px;
+    }
+
+    .queries {
+        margin:auto;
+        position:absolute;
+        text-align:center;
+        top:360px;
+        left:100px;
+    }
+
+    .p-companies, .p-templates, .p-queries {
+        font-family: 'Inter', sans-serif;
+        font-weight:700;
+        font-size:21px;
+        color:hsl(0, 0%, 100%);
+        margin:0;
+    }
+
+    .companies-head, .templates-head, .queries-head {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight:400;
+        font-size:10px;
+        color:hsla(0, 0%, 100%, 0.6);
+        margin:5px 0;
+        letter-spacing:1px;
+    }
+}
